@@ -251,7 +251,7 @@ p.subs {
 	border: none;
 	border-collapse: collapse;
 	/*margin-right:15px;*/
-	line-height: 1.6em!important;
+	line-height: 1rem;
 }
 
 tr.ln-row {
@@ -281,7 +281,7 @@ tr.ln-row {
   transition: 0.3s ease;
 }
 #sub-stats tr {
-  background: rgb(45 46 47 / 100%);
+  background: rgb(45 45 47 / 83%);
   transition: 0.3s ease;
   color: #bbb;
 }
