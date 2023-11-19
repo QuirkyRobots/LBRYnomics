@@ -24,7 +24,7 @@ html {
 	box-shadow: 0 -6px 20px -5px rgb(0 0 0 / 24%);
 }
 body {
-  background-color: #333;
+  background-color: background-color: rgb(52 52 55 / 49%);
 	/*overflow: visible!important;*/
   font-family: Open Sans,Arial,sans-serif;
   font-size: 14px;
