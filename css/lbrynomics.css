@@ -16,7 +16,7 @@
 .ln-footer {
 	box-shadow: 0 -6px 20px -5px rgb(0 0 0 / 24%);
 }
-body.custom-background {
+body {
     background-color: #333;
 	/*overflow: visible!important;*/
 }
