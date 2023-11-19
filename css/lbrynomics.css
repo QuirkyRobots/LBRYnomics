@@ -9,6 +9,13 @@
 }
 */
 /*header {overflow: hidden!important;}*/
+html {
+  background-size: initial;
+    background-repeat: repeat;
+    background-image: url(./img/lbrynomicstbg.png)!important;
+    background-color: #333;
+}
+
 .offline {
 	pointer-events: none!important;
 }
