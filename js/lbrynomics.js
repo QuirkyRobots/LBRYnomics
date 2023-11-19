@@ -76,7 +76,7 @@ jQuery(document).ready(function($) {
   
     // Table builder
 
-    $.getJSON('../data/top_2000.json', function(data) {
+    $.getJSON('./data/top_2000.json', function(data) {
       var humanTimeSub = `${data.human_time_utc}`
       $(".human-time-sub").html(humanTimeSub)
       $(".human-time-sub").attr('title', humanTimeSub)
@@ -277,7 +277,7 @@ jQuery(document).ready(function($) {
 
     function fetchClaimsData() {
       $.ajax({
-        url: '../data/streams_stats.json',
+        url: './data/streams_stats.json',
         type: 'get',
         success: function(data) {
           
@@ -308,7 +308,7 @@ jQuery(document).ready(function($) {
 
     function fetchChannelData() {
       $.ajax({
-        url: '../data/channels_stats.json',
+        url: './data/channels_stats.json',
         type: 'get',
         success: function(data) {
 
@@ -339,7 +339,7 @@ jQuery(document).ready(function($) {
 
     function fetchRepostsData() {
       $.ajax({
-        url: '../data/reposts_stats.json',
+        url: './data/reposts_stats.json',
         type: 'get',
         success: function(data) {
 
@@ -370,7 +370,7 @@ jQuery(document).ready(function($) {
 
     function fetchSupportsData() {
       $.ajax({
-        url: '../data/supports_and_tips.json',
+        url: './data/supports_and_tips.json',
         type: 'get',
         success: function(data) {
 
@@ -521,7 +521,7 @@ jQuery(document).ready(function($) {
 
     function fetchLBRYnomicsData() {
       $.ajax({
-        url: '../data/lbrynomics.json',
+        url: './data/lbrynomics.json',
         type: 'get',
         success: function(data) {
 
