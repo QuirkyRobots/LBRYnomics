@@ -17,16 +17,16 @@
 	box-shadow: 0 -6px 20px -5px rgb(0 0 0 / 24%);
 }
 body {
-    background-color: #333;
-	  /*overflow: visible!important;*/
-    font-family: Open Sans,Arial,sans-serif;
-    font-size: 14px;
-    color: #666;
-    background-color: #fff;
-    line-height: 1.7em;
-    font-weight: 500;
-    -webkit-font-smoothing: antialiased;
-
+  background-color: #333;
+	/*overflow: visible!important;*/
+  font-family: Open Sans,Arial,sans-serif;
+  font-size: 14px;
+  color: #666;
+  background-color: #fff;
+  line-height: 1.7em;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  padding-top:2rem;
 }
 
 #page-container {
