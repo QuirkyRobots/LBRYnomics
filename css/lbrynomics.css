@@ -37,6 +37,7 @@ body {
 }
 .ln-info-notice {
   padding: 1rem 2rem;
+  padding-right:2.2rem;
   padding-bottom: 2rem;
   color: #b8b8bb;
   background: #33353a;
@@ -45,6 +46,9 @@ body {
 }
 .ln-info-notice p {
   margin: 0;
+}
+.ln-info-notice a {
+  color: #8093cb;
 }
 #page-container {
 overflow-y: unset!important;
