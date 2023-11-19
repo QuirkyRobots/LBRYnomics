@@ -36,8 +36,15 @@ body {
   margin: 0;
 }
 .ln-info-notice {
-  padding-top:3rem;
-  padding-bottom: 3rem;;
+  padding: 1rem 2rem;
+  padding-bottom: 2rem;
+  color: #b8b8bb;
+  background: #33353a;
+  width: auto;
+  display: inline-block;
+}
+.ln-info-notice p {
+  margin: 0;
 }
 #page-container {
 overflow-y: unset!important;
