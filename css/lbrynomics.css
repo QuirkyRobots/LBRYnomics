@@ -41,7 +41,7 @@ body {
   padding-right:2.2rem;
   padding-bottom: 2rem;
   color: #b8b8bb;
-  background: #33353a;
+  background: rgb(49 50 55 / 56%);
   width: auto;
   display: inline-block;
 }
