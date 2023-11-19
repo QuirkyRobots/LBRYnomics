@@ -251,7 +251,7 @@ p.subs {
 	border: none;
 	border-collapse: collapse;
 	/*margin-right:15px;*/
-	line-height: 1rem;
+	line-height: .15rem;
 }
 
 tr.ln-row {
@@ -464,6 +464,7 @@ td.lbcs:hover::after {
 }
 .table-header tr {
     background: none!important;
+    height: 3rem;
 }
 p.table-headers {
 	display: inline-block;
