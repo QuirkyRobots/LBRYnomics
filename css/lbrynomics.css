@@ -260,15 +260,15 @@ tr.ln-row {
 .show-table-row {
 	display:table-row;
 }
-#sub-stats tr:nth-child(14) {
+#sub-stats tr:nth-child(15) {
     box-shadow: inset 0 -1px 0 0px #4a515a!important;
 }
-#sub-stats tr:nth-child(4) {
+#sub-stats tr:nth-child(5) {
     /*background: rgba(107, 107, 107, 0.3)!important;*/
 	/*background: rgb(68 68 68 / 79%)!important;*/
     box-shadow: inset 0 2px 0 0px #444a51;
 }
-#sub-stats tr:nth-child(n+4):nth-child(-n+14) .rank {
+#sub-stats tr:nth-child(n+5):nth-child(-n+15) .rank {
     background: #34383e;
 }
 #sub-stats tr:nth-child(n+101) {
@@ -318,6 +318,7 @@ tr.ln-row {
 }
 #sub-stats a {
   color: #ef436b;
+  text-decoration: none;
 }
 #sub-stats a:visited {
   color: #ab4e70;
