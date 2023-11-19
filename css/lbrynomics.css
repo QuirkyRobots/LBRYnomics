@@ -33,6 +33,7 @@ body {
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   padding-top:2rem;
+  padding-bottom:5rem;
   margin: 0;
 }
 .ln-info-notice {
